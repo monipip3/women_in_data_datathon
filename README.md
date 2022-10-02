@@ -26,16 +26,18 @@ We created a novel dataset where we took the [Top 50 of the Top 500 Fortune Comp
 
 ## large companies excel sheet
 ### sheet = 'main data'
-+ Number of Employees from macrotrends.com
-+ Sector from glassdoor.com
-+ Revenue in Billions QTR 2 2022 from macrotrends.com
-+ Median retention in years from Linkedin Premium
-+ Latest Paid Maternity leave in Weeks*
-+ Latest Paid Paternity leave in Weeks*
-+ Last Policy Change Date on Paid Leave**
-+ [Avg Polarity / Sentiment Score from Webscraped Reviews *before* Policy Changed](https://github.com/monipip3/women_in_data_datathon/blob/main/sentiment_analysis.ipynb)***
-+ [Avg Polarity / Sentiment Score from Webscraped Reviews *after* Policy Changed](https://github.com/monipip3/women_in_data_datathon/blob/main/sentiment_analysis.ipynb)***
-+ [Avg Polarity / Sentiment Score pct change from Webscraped Reviews after Policy Changed](https://github.com/monipip3/women_in_data_datathon/blob/main/sentiment_analysis.ipynb)***
++ Number of Employees *from macrotrends.com*
++ Sector *from glassdoor.com*
++ Revenue in Billions QTR 2 2022 *from macrotrends.com*
++ Median retention in years from *Linkedin Premium*
++ Latest Paid Maternity leave in Weeks *extraced first from press release then supplemented by Fairygodboss.com*
++ Latest Paid Paternity leave in Weeks *extraced first from press release then supplemented by Fairygodboss.com*
++ Last Policy Change Date on Paid Leave *extracted from press release*
++ [Avg Polarity / Sentiment Score from Webscraped Reviews *before* Policy Changed](https://github.com/monipip3/women_in_data_datathon/blob/main/sentiment_analysis.ipynb) 
+*created a flag if this review was before the date of policy change in the press release*
++ [Avg Polarity / Sentiment Score from Webscraped Reviews *after* Policy Changed](https://github.com/monipip3/women_in_data_datathon/blob/main/sentiment_analysis.ipynb)
+*created a flag if this review was before the date of policy change in the press release*
++ [Avg Polarity / Sentiment Score pct change from Webscraped Reviews after Policy Changed](https://github.com/monipip3/women_in_data_datathon/blob/main/sentiment_analysis.ipynb) *calculation done in Tableau*
 
 ### sheet = 'paid review links'
 
