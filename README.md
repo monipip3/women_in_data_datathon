@@ -1,10 +1,10 @@
 # women_in_data_datathon
-Women in Data hosted a datathon highlighting on 
+Women in Data hosted a 2022 datathon highlighting  
 + Equal Pay
 + Paid Family Leave
 + Education
 
-We gravitated towards Paid Family Leave. In the last 5-10 years we have seen many companies revise paid leave policies for the better. Most companies have room for improvement but we wanted to analyze the progress made in companies, specifically large companies. 
+We gravitated towards Paid Family Leave. In the last 5-10 years we have seen many companies revise paid leave policies for the better. Most companies have room for improvement, but we wanted to analyze the initial progress made in companies in order to encourage others to follow suit. We began by using the Top 50 companies as listed by Fortune 500. 
 
 # Contributors:
 + Monica Puerto (Lead) 
@@ -14,10 +14,9 @@ We gravitated towards Paid Family Leave. In the last 5-10 years we have seen man
 
 # Problem Statement
 
-Does increasing paid leave have an effect/ contribute to :
+Does increasing paid leave have an effect/contribute to:
 + Employee retention
 + Employee morale
-+ Growth of a Company (# of Employees or Revenue)
 
 # Methods
 Our hackathon / datathon project on Paid Leave on Top US 50 Companies using NLP and data visualizations.
@@ -55,12 +54,16 @@ Text Blob
 
 ## Tableau Dashboard
 
+We created a story dashboard where you can interact with Glassdoor ratings over time for a particular company and assess how the policy updates affected the review score polarity. (https://tabsoft.co/3SN9QnQ)
+
 
 ## Video Submission
 
 
 
 ## Future Work
+
+This work has the potential to leave a lasting impact on the future of American Paid Leave policies. As more companies update their policies, we now have the ability to monitor employee retention improvement as time continues. Furthermore, this dataset can be used to monitor company growth (# of Employees or Revenue) following Paid Leave policy updates. We hope you will use the trend analysis (and add to it!) to advocate for improved Paid Leave policies at your company. 
 
 Please feel free to fork this data and further analayze data! Also feel free to add to the sheet called Paid leave review links and webscrape more Fortune 500 companies!
 
