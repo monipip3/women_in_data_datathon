@@ -43,12 +43,16 @@ We created a novel dataset where we took the [Top 50 of the Top 500 Fortune Comp
 
 + In Glassdoor there is a section under Benefits solely dedicated to Paid and Maternity Leave. 
 
+<img src="https://github.com/monipip3/women_in_data_datathon/blob/main/img/GLASSDOOR.png" width="600" />
 
 We collected the links for the Top 50 companies we wanted to analyze. We then looped through the list and scraped the reviews along with some metadata about the review. [See this notebook for the code](https://github.com/monipip3/women_in_data_datathon/blob/main/Scraping_Glassdoor_Company_Reviews_parental_leave_only.ipynb).
 
 ## NLP / Sentimental Analysis
 
 After webscraping via the Python package Beautiful Soup, the reviews which ended up being around ~5K of them. 
+
+<img src="https://github.com/monipip3/women_in_data_datathon/blob/main/img/WEBSCRAPING.png" width="600" />
+
 We tweaked code from the [Bullet Byte Blog](https://bulletbyte.weebly.com/tech/how-to-scrape-a-companys-glassdoor-reviews-using-python). We idenitifed the Parental Leave section of each Fortune 50 Company and looped through each url and extracted the reviews. See that [webscraping code here](https://github.com/monipip3/women_in_data_datathon/blob/main/Scraping_Glassdoor_Company_Reviews_parental_leave_only.ipynb).
 
 We applied sentiment analysis via 2 methods : 
@@ -57,11 +61,18 @@ We applied sentiment analysis via 2 methods :
 
 Text Blob is a rule based sentiment Python package where each word receives a score and then the whole text gets an average score called polarity that ranges from -1 to 1. With -1 being the most negative , 0 being neutral, and 1 being the most positive.
 
+<img src="https://github.com/monipip3/women_in_data_datathon/blob/main/img/TEXTBLOB.png" width="600" />
 
 ### Google's T5 Finetuned on Emotion
 
-A transformer model from Google called T5 but we ended up using text blob because it had a better measure of neutral review. It idenitief six emotions: sadness, joy, love, anger, fear, and suprise. However we found that a good portion of the reviews were neutral. When grouping the emotions identified by the transformer model, we saw a good chunk of these emotions were classified as neutral by Text Blob which we agreed upon human review.
+A transformer model from Google called T5 but we ended up using text blob because it had a better measure of neutral review. It idenitief six emotions: sadness, joy, love, anger, fear, and suprise. However we found that a good portion of the reviews were neutral. 
 
+
+<img src="https://github.com/monipip3/women_in_data_datathon/blob/main/img/TRANSFORMERMODEL.png" width="600" />
+
+When grouping the emotions identified by the transformer model, we saw a good chunk of these emotions were classified as neutral by Text Blob which we agreed upon human review.
+
+<img src="https://github.com/monipip3/women_in_data_datathon/blob/main/img/emotions.png" width="600" />
 
 ## Tableau Dashboard
 
