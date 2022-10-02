@@ -1,0 +1,73 @@
+Add your talking points below so we can review together on Sunday and finalize on Thursday
+
+Anita (Intro, Problem Statement / Intent. Datasources)
+
+
+Monica (Webscraping and Natural Language Processing)
+
+
+Karolina (Story telling with Data)
+
+
+Elizabeth (Conclusion and Future Work)
+
+
+
+
+Tableau Story Desc:
+
+https://images.squarespace-cdn.com/content/v1/5e6029062962cd230c0bc0cc/1583360842021-HT4KDJQLVO05J09RCCFS/WideWhiteLogo.png?format=1500w (Women in Data Logo)
+
+Font: Proxima Nova
+Background: Light Blue?
+
+There are 87.3 million families in the United States according to the Census Bureau with an estimation of 60 million children. 62% of  married couples are both employed and 78% of families have at least one parent employed.
+
+The top 50 Fortune Companies employ over 12M people. That population alone is larger than the 5th most populated state in America.
+
+According to the Maven’s 2021 study, which was the largest study of Parents at Work, identified 
+4.8 million cases of parent burnout that could have been prevented.
+65% of employees are actively searching for a new job but at Best Working Places , they achieved an 86% reduction of working parents wanting to leave their employer
+Benefits Investment was the biggest differentiator for Best Working Places and other companies, including paid leave.
+
+What is the current state of paternity leave across these Top 50 Fortune Companies?
+
+High level stats:
+Num of Employees (sum)
+Amt of Revenue B (sum)
+Box plot of Retention
+
+
+Bar Chart of Top 10 Companies of Paid Leave
+Bar Chart of Bottom 10 Companies of Paid Leave
+Box Plot of Maternity Leave
+Box Plot of Paternity Leave
+
+Does it differ by sector?
+Chart of Companies by Sector
+Section proving that employees want more Paid Leave
+
+Scatter plot of 
+Median Paid Leave and Avg Paid Leave Rating
+
+
+Image of Google Search Trends 
+
+
+
+Table of pct sentiment changes of companies of Before and After and high level stats
+
+
+Future Work
+
+
+Appendix
+
+
+Data Sources
+
+NLP Methodology
+
+
+Github Link
+
