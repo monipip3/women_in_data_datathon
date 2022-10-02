@@ -76,7 +76,9 @@ When grouping the emotions identified by the transformer model, we saw a good ch
 
 ## Tableau Dashboard
 
-We created a story dashboard where you can interact with Glassdoor ratings over time for a particular company and assess how the policy updates affected the review score polarity. (https://tabsoft.co/3SN9QnQ)
+<img src="https://github.com/monipip3/women_in_data_datathon/blob/main/img/tableau.png" width="600" />
+
+We created a story dashboard where you can interact with Glassdoor ratings over time for a particular company and assess how the policy updates affected the review score polarity. (https://public.tableau.com/app/profile/karolina.grodzinska/viz/WomeninDataDatathon/Dashboard)
 
 
 ## Video Submission
