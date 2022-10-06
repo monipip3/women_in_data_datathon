@@ -24,7 +24,7 @@ We created a novel dataset where we took the [Top 50 of the Top 500 Fortune Comp
 
 # Data Sources:
 
-## large companies excel sheet
+## [large companies excel sheet](https://github.com/monipip3/women_in_data_datathon/blob/main/data/large_companies.xlsx)
 ### sheet = 'main data'
 + Number of Employees *from macrotrends.com*
 + Sector *from glassdoor.com*
@@ -45,7 +45,7 @@ We created a novel dataset where we took the [Top 50 of the Top 500 Fortune Comp
 
 <img src="https://github.com/monipip3/women_in_data_datathon/blob/main/img/GLASSDOOR.png" width="600" />
 
-We collected the links for the Top 50 companies we wanted to analyze. We then looped through the list and scraped the reviews along with some metadata about the review. [See this notebook for the code](https://github.com/monipip3/women_in_data_datathon/blob/main/Scraping_Glassdoor_Company_Reviews_parental_leave_only.ipynb).
+We collected the links for the Top 50 companies we wanted to analyze. We then looped through the list and scraped the reviews along with some metadata about the review. [See this notebook for the code](https://github.com/monipip3/women_in_data_datathon/blob/main/Scraping_Glassdoor_Company_Reviews_parental_leave_only.ipynb). If you would like to add more companies from the Top Fortune 500 Companies list to the [reviews dataset we compiled](https://github.com/monipip3/women_in_data_datathon/blob/main/data/reviews_all_companies.pkl) please fork our repo and do so!
 
 ## NLP / Sentimental Analysis
 
@@ -83,11 +83,14 @@ We created a [story dashboard](https://public.tableau.com/app/profile/karolina.g
 
 ## Video Submission
 
-
+Link TBD
 
 ## Future Work
 
-This work has the potential to leave a lasting impact on the future of American Paid Leave policies. As more companies update their policies, we now have the ability to monitor employee retention improvement as time continues. Furthermore, this dataset can be used to monitor company growth (# of Employees or Revenue) following Paid Leave policy updates. We hope you will use the trend analysis (and add to it!) to advocate for improved Paid Leave policies at your company. 
+This work has the potential to leave a lasting impact on the future of American Paid Leave policies. As more companies update their policies, we now have the ability to monitor employee retention improvement as time continues. 
+Retention was captured from Linkedin Premium as of September 2022, but Linkedin calculates a cumulative median retention, the proper way to analyze is retention before and after similarily the way we calculated sentiment before and after the policy change to capture employee morale. 
+**As seen on our dashboard 86% companies with a policy changed had a median sentiment increase of 2.6% , and over half of those companies had a 10% increase in sentiment.**
+Furthermore, this dataset can be used to monitor company growth (# of Employees or Revenue) following Paid Leave policy updates. We hope you will use the trend analysis (and add to it!) to advocate for improved Paid Leave policies at your company. 
 
 Please feel free to fork this data and further analayze data! Also feel free to add to the sheet called Paid leave review links and webscrape more Fortune 500 companies!
 
