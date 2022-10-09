@@ -83,7 +83,7 @@ We created a [story dashboard](https://public.tableau.com/app/profile/karolina.g
 
 ## Video Submission
 
-Link TBD
+https://youtu.be/2IFthhdfaTQ
 
 ## Future Work
 
