@@ -83,7 +83,7 @@ We created a [story dashboard](https://public.tableau.com/app/profile/karolina.g
 
 ## Video Submission
 
-https://youtu.be/2IFthhdfaTQ
+https://www.canva.com/design/DAFNbe051M8/DhwvMotbqJn6JGJJc88QfQ/watch?utm_content=DAFNbe051M8&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel
 
 ## Future Work
 
